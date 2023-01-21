@@ -1,0 +1,16 @@
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\bin\Debug\net5.0\TranNhatHoang_SE160034_A01.exe
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\bin\Debug\net5.0\TranNhatHoang_SE160034_A01.deps.json
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\bin\Debug\net5.0\TranNhatHoang_SE160034_A01.runtimeconfig.json
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\bin\Debug\net5.0\TranNhatHoang_SE160034_A01.runtimeconfig.dev.json
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\bin\Debug\net5.0\TranNhatHoang_SE160034_A01.dll
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\bin\Debug\net5.0\ref\TranNhatHoang_SE160034_A01.dll
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\bin\Debug\net5.0\TranNhatHoang_SE160034_A01.pdb
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.csproj.AssemblyReference.cache
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.AssemblyInfoInputs.cache
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.AssemblyInfo.cs
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.csproj.CoreCompileInputs.cache
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.dll
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\ref\TranNhatHoang_SE160034_A01.dll
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.pdb
+C:\Users\P53S\source\repos\TranNhatHoang_SE160034_A01\obj\Debug\net5.0\TranNhatHoang_SE160034_A01.genruntimeconfig.cache
