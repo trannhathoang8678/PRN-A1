@@ -6,4 +6,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CustomerImage.jpg" />
+    <None Remove="StaffImage.jpg" />
+    <None Remove="tick.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="CustomerImage.jpg" />
+    <Resource Include="StaffImage.jpg" />
+    <Resource Include="tick.png" />
+  </ItemGroup>
+
 </Project>

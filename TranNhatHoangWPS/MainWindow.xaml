@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="170,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="170,146,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="253,119,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="253,150,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.053,-0.833"/>
+        <Button Name ="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="253,184,0,0" VerticalAlignment="Top" Width="77" Click="btnLogin_Click" />
+        <Image Name="CustomerImage" HorizontalAlignment="Left" Height="100" Margin="170,10,0,0" VerticalAlignment="Top" Width="97" MouseDown="CustomerPicture_MouseDown" Source="/CustomerImage.jpg"/>
+        <Image Name="StaffImage" HorizontalAlignment="Left" Height="100" Margin="292,10,0,0" VerticalAlignment="Top" Width="100" MouseDown="StaffPicture_MouseDown" Source="/StaffImage.jpg"/>
+        <Image Name="CustomerTickImage"  HorizontalAlignment="Left" Visibility="Hidden" Height="21" Margin="188,10,0,0" VerticalAlignment="Top" Width="20" Source="/tick.png"/>
+        <Image Name="StaffTickImage" HorizontalAlignment="Left" Visibility ="Hidden" Height="21" Margin="306,10,0,0" VerticalAlignment="Top" Width="20" Source="/tick.png"/>
 
     </Grid>
 </Window>

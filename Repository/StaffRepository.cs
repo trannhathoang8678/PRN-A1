@@ -1,6 +1,5 @@
 ﻿using BusinessObject;
 using DataAccessObject;
-using System;
 using System.Collections.Generic;
 
 namespace Repository
@@ -9,27 +8,31 @@ namespace Repository
     {
         public IEnumerable<StaffAccount> GetAll()
         {
-            return StaffDAO.Instance.GetStaffList();
+            return StaffDAO.Instance.GetList();
         }
 
         public StaffAccount GetById(string id)
         {
-            return StaffDAO.Instance.GetStaffById(id);
+            return StaffDAO.Instance.GetById(id);
         }
         public void Add(StaffAccount t)
         {
-             StaffDAO.Instance.Add(t);
+            StaffDAO.Instance.Add(t);
+        }
+
+        public void Update(StaffAccount t)
+        {
+            StaffDAO.Instance.Update(t);
         }
 
         public void Delete(StaffAccount t)
         {
-            return StaffDAO.Instance.Delete(t);
+            StaffDAO.Instance.Delete(t);
         }
 
-
-        public void Update(StaffAccount t)
+        public StaffAccount Login(string email, string password)
         {
-            throw new NotImplementedException();
+            return StaffDAO.Instance.LoginByStaffAccount(email, password);
         }
     }
 }

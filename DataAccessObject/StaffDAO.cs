@@ -1,14 +1,11 @@
 ﻿using BusinessObject;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccessObject
 {
-    public class StaffDAO
+    public class StaffDAO : IDAO<StaffAccount>
     {
         private static StaffDAO instance = null;
         private static readonly object instanceLock = new object();
@@ -33,19 +30,12 @@ namespace DataAccessObject
         public StaffAccount LoginByStaffAccount(String email, String password)
         {
             StaffAccount staff = null;
-            try
-            {
-                var context = new CarRentalSystemDBContext();
-                staff = context.StaffAccounts.SingleOrDefault(c => c.Email == email && c.Password == password);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
+            var context = new CarRentalSystemDBContext();
+            staff = context.StaffAccounts.SingleOrDefault(c => c.Email == email && c.Password == password);
             return staff;
         }
 
-        public IEnumerable<StaffAccount> GetStaffList()
+        public IEnumerable<StaffAccount> GetList()
         {
             IEnumerable<StaffAccount> staffList = null;
             try
@@ -60,7 +50,7 @@ namespace DataAccessObject
             return staffList;
         }
 
-        public StaffAccount GetStaffById(String staffID)
+        public StaffAccount GetById(String staffID)
         {
             StaffAccount staff = null;
             try
@@ -94,7 +84,7 @@ namespace DataAccessObject
         {
             try
             {
-                StaffAccount _staff = GetStaffById(staff.StaffId);
+                StaffAccount _staff = GetById(staff.StaffId);
                 if (_staff != null)
                 {
                     var context = new CarRentalSystemDBContext();
@@ -117,7 +107,7 @@ namespace DataAccessObject
         {
             try
             {
-                StaffAccount _staff = GetStaffById(staff.StaffId);
+                StaffAccount _staff = GetById(staff.StaffId);
                 if (_staff != null)
                 {
                     var context = new CarRentalSystemDBContext();
